@@ -1,0 +1,6 @@
+Dear {{ username }},
+welcome to flasky,
+to confirm your account please click in the following lin:
+{{ url_for('auth.confirm', token=token, _external=True) }}
+Sincerely,
+the flasky team.
